@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://localhost:3000/",
+  "fileServerFolder": "./",
+  "defaultCommandTimeout": 60000,
+  "chromeWebSecurity": false,
+  "numTestsKeptInMemory": 1
+}

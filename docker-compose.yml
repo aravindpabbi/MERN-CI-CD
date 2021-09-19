@@ -9,12 +9,13 @@ services:
       context: ./projfrontend
       dockerfile: ./Dockerfile
     volumes:
-      - ./projfrontend:/app/
+      - ./projfrontend:/app
       - /app/node_modules
     ports:
-      - "3012:3000"
+      - "3000:3000"
     networks:
       - app-network
+
   backend:
     restart: unless-stopped
     container_name: backend
