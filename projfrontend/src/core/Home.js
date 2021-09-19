@@ -13,7 +13,7 @@ const Home = () => {
           <button className="btn sucess btn-success">Test</button>
         </div>
         <div className="col-4">
-          <button className="btn btn-success">Test</button>
+          <button className="btn btn-success">Tt</button>
         </div>
         <div className="col-4">
           <button className="btn btn-success">Test</button>
