@@ -10,7 +10,7 @@ const Home = () => {
     <Base title="Home Page" description="An MERN stack E-commerce site">
       <div className="details row">
         <div className="col-4">
-          <button className="btn sucess btn-success">Test</button>
+          <button className="btn sucess btn-success">Tst</button>
         </div>
         <div className="col-4">
           <button className="btn btn-success">Test</button>
