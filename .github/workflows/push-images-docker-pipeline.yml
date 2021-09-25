@@ -53,7 +53,7 @@ jobs:
       id: docker_build
       uses: docker/build-push-action@v2
       with:
-        context: ../
-        file: ../Dockerfile
+        working-directory: ./projfrontend
+        dockerfile: ./projfrontend/Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/projfrontend:latest
