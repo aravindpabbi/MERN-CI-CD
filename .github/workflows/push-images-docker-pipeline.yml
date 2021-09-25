@@ -56,4 +56,4 @@ jobs:
         context: ../
         file: ../Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/cicd:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/projfrontend:latest
