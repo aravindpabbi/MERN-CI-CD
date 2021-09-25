@@ -28,8 +28,8 @@
 #     - cron:  '30 00,17 * * *'
 
 on:
-  push:
-    branches: [ main ]
+  pull_request:
+    branches: [ master ]
 
 name: Deploy to DockerHub Repository
 
