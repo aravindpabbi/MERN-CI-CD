@@ -7,7 +7,7 @@ const Home = () => {
 
   console.log("API IS", API)
   return (
-    <Base title="Home Page" description="An MERN stack E-commerce site">
+    <Base title="Home Page" description="An MERN stack site">
       <div className="details row">
         <div className="col-4">
           <button className="btn sucess btn-success">Test</button>
